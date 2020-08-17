@@ -1,9 +1,9 @@
-import { Person, render } from "./personalProfile.js"
+import { Person, render } from "../js/personalProfile.js"
 
 let people = [
-    new Person("Bob", "bob-ross.jpg"),
-    new Person("Frida", "frida-kahlo.jpg"),
-    new Person("Dali", "dali.jpg")
+    new Person("Bob", "../img's/bob-ross.jpg"),
+    new Person("Frida", "../img's/frida-kahlo.jpg"),
+    new Person("Dali", "../img's/dali.jpg")
 ];
 
 window.onload = () => {
